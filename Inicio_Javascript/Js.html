@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="bg-light">
+    <!--BARRA DE NAVEGACIÓN-->
+    <nav class="navbar navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="../Bootstrap/Iniciacion/pixel-art-dog.webp" width="60" height="60"> </a>
+        </div>
+    </nav>
+
+    <!--CONTENIDO/HERO-->
+    <section class="container">
+        <h1 class="text-center mb-4">Iniciación a JavasCript y BootStrap</h1>
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white text-center">
+                <h5>Variables LET</h5>
+            </div>
+            <div class="card-body">
+                <p>En Javascript usamos <code>let</code> para crear variables cuyo valor puede cambiar durante la ejecución del programa</p>
+                <p>Ejemplo:</p>
+                <p><code>let nombre = "Rubén";</code></p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white text-center">
+                <h5>Tipos de datos</h5>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><b>String</b>: Texto o cadena de caracteres -> <code>"Hola que áse"</code></li>
+                    <li><b>Número Entero</b>: Número de tipo entero -> <code> 23573 </code></li>
+                    <li><b>Número Decimal</b>: Número de tipo decimal -> <code> 3,1416 </code></li>
+                    <li><b>Booleno</b>: Dos valores posibles, verdadero o falso -> <code> true </code></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white text-center">
+                <h5>Operadores</h5>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><b>Suma</b>: + -> <code>a+b</code></li>
+                    <li><b>Resta</b>: - -> <code> a-b </code></li>
+                    <li><b>Producto o Multiplicación</b>: * -> <code> a*b </code></li>
+                    <li><b>División</b>: / -> <code> a/b </code></li>
+                    <li><b>Resto o Módulo</b> % -> <code> a% </code></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--BOTON ACTUABLE-->
+    <div class="alert alert-danger text-center" id="mensaje">
+        Este mensaje cambiara gracias a Javascript.
+    </div>
+    <div class="text-center mt-2 mb-4">
+        <button id="btn" class="btn btn-warning btn-lg"> Haz click </button>
+    </div>
+
+    <script src="miJavascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
